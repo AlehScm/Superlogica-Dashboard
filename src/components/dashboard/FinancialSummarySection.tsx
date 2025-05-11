@@ -30,7 +30,7 @@ export default function FinancialSummarySection() {
       value: '3.8%',
       icon: Users, // Using Users, could be Percent if more appropriate for "rate"
       trend: 'down' as const, // Lower churn is good
-      trendDescription: '-0.5% vs. trimestre anterior',
+      trendDescription: '+0.5% vs. trimestre anterior',
     },
   ];
 
